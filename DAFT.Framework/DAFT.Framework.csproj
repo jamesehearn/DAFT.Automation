@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Company>James E. Hearn</Company>
+    <Product>DAFT.Framework Samples</Product>
+    <Copyright>© James Hearn 2020</Copyright>
+    <Authors>James Hearn</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>artifacts\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="packages\**" />
+    <EmbeddedResource Remove="packages\**" />
+    <None Remove="packages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\james\source\repos\DAFT.Automation\DAFT.Framework\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <Content Remove="C:\Users\james\source\repos\DAFT.Automation\DAFT.Framework\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\testhost.dll" />
+    <Content Remove="C:\Users\james\source\repos\DAFT.Automation\DAFT.Framework\packages\microsoft.testplatform.testhost\16.8.3\build\netcoreapp2.1\x64\testhost.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atata" Version="1.9.0" />
+    <PackageReference Include="Atata.WebDriverExtras" Version="1.4.0" />
+    <PackageReference Include="Bogus" Version="32.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="NUnit" Version="3.13.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="87.0.4280.8800" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="artifacts\" />
+    <Folder Include="build\" />
+    <Folder Include="docs\" />
+    <Folder Include="lib\" />
+    <Folder Include="tests\" />
+    <Folder Include="samples\" />
+  </ItemGroup>
+
+</Project>

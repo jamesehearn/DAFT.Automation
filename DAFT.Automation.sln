@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAFT.Framework", "DAFT.Framework\DAFT.Framework.csproj", "{5860FD2E-A0BE-41C3-9197-A9362FB5670C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheInternet", "TheInternet\TheInternet.csproj", "{9766A819-2037-4FC3-A512-B84F4FE1B40D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5860FD2E-A0BE-41C3-9197-A9362FB5670C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5860FD2E-A0BE-41C3-9197-A9362FB5670C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5860FD2E-A0BE-41C3-9197-A9362FB5670C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5860FD2E-A0BE-41C3-9197-A9362FB5670C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9766A819-2037-4FC3-A512-B84F4FE1B40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9766A819-2037-4FC3-A512-B84F4FE1B40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9766A819-2037-4FC3-A512-B84F4FE1B40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9766A819-2037-4FC3-A512-B84F4FE1B40D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC76AB90-A9CF-44CF-B1E1-2C2C98B89C60}
+	EndGlobalSection
+EndGlobal
