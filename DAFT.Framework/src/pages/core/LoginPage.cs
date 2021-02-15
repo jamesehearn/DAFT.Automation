@@ -11,12 +11,13 @@ namespace DAFT.Framework.Pages.Core
 
         public PasswordInput<TOwner> Password { get; private set; }
 
-        public Button<TOwner> Login { get; private set; }
+        public ButtonDelegate<TOwner> Login { get; private set; }
 
-        public TOwner LogIn(Login l)
+        public TOwner LogIn(LoginBase l)
         {
-            Username.Set(l.Username).Password.Set(l.Password).Login.Click();
-            return (TOwner)this;
+            //Username.Set(l.Username).Password.Set(l.Password).Login.ClickAndGo<>();
+            //return (TOwner)this;
+            return Username.Set(l.Username).Password.Set(l.Password).Login();
         }
     }
 }

@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="artifacts\" />
-    <Folder Include="src\data\" />
     <Folder Include="src\tests\" />
   </ItemGroup>
 

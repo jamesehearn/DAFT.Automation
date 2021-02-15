@@ -1,6 +1,6 @@
 ﻿namespace DAFT.Framework.Data
 {
-    public class TestCase
+    public abstract class TestCaseBase
     {
         public string Option { get; set; }
     }

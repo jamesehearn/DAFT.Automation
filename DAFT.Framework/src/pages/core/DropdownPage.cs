@@ -10,10 +10,9 @@ namespace DAFT.Framework.Pages.Core
         [FindById("dropdown")]
         public Select<TOwner> Options { get; private set; }
 
-        public TOwner Select(TestCase t)
+        public TOwner Select(TestCaseBase t)
         {
-            Options.Set(t.Option);
-            return (TOwner)this;
+            return Options.Set(t.Option);
         }
     }
 }

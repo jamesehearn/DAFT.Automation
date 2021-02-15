@@ -1,4 +1,4 @@
-﻿using DAFT.Framework.pages.core;
+﻿using DAFT.Framework.Pages.Core;
 
 namespace TheInternet.Pages.Core
 {

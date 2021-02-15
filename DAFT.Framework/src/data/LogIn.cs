@@ -1,9 +1,9 @@
 ﻿
 namespace DAFT.Framework.Data
 {
-    public class Login
+    public abstract class LoginBase
     {
-        public string Username { get; set; } = "tomsmith";
-        public string Password { get; set; } = "SuperSecretPassword!";
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }

@@ -1,0 +1,12 @@
+{
+    "set": [
+        {
+            "environment": "qa",
+            "baseUrl": "http://qa"
+        },
+        {
+            "environment": "dev",
+            "baseUrl": "http://dev"
+        }
+    ]
+}
